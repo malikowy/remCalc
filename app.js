@@ -11,7 +11,7 @@ function calculator() {
     var userRemSize = document.getElementById("userRemSize").value;
     if (userPixelSize > 0 && baseDocPixelRem > 0) {
         var rems = userPixelSize / baseDocPixelRem;
-        remsDecim = +rems.toFixed(2);
+        remsDecim = +rems.toFixed(4);
         document.getElementById("remCalculator").innerHTML = remsDecim + " rem";
     } else {
         document.getElementById("remCalculator").innerHTML = "Nie podano wartości do obliczeń PX->REM";
