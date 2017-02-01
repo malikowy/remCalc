@@ -1,0 +1,31 @@
+body {
+	text-align      : center;
+	display         : -webkit-box;
+	display         : -ms-flexbox;
+	display         : flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack   : center;
+	justify-content : center;
+
+	h3 {
+		text-align: center;
+	}
+
+	button {}
+
+	.left-calc {
+		max-width: 400px;
+	}
+
+	.right-calc {
+		max-width: 400px;
+	}
+
+	.result {
+		font-weight: bold;
+
+		.result__calc {
+			color: red;
+		}
+	}
+}
